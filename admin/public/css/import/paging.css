@@ -1,0 +1,22 @@
+#paging-wp{
+    margin:20px 0px;
+    float:right;
+}
+.paging li{
+    float:left;
+    list-style: none;
+    padding:0px 5px;
+}
+
+.paging li a{
+    display: block;
+    padding:2px 8px;
+    border:1px solid #95a5a6;  
+    color: #f39c12;
+    
+}
+.paging li.active a {
+    color:#2f3640;
+    background: #f1c40f;
+}
+

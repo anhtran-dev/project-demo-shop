@@ -1,0 +1,12 @@
+.list-account-page .add_user{
+   
+    width:16%;
+    display: block;
+    border: none;
+    outline: none;
+    background: #4fa327;
+    color: #fff;
+    padding: 8px 20px;
+    margin-top:50px;
+}
+.table-responsive{margin-top:20px;}

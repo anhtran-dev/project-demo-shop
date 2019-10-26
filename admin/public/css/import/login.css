@@ -1,0 +1,61 @@
+#wrapper{
+    height: 100vh; 
+    
+    background: url('../../../public/images/img-login.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#form_login{
+    padding:30px;
+    text-align:center;
+    box-sizing: border-box;
+       
+}
+#form_login h1{
+    font-size: 24px;
+    padding:15px 0px;
+    color:#e67e22;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top:10vh;
+}
+#form_login input{
+    width:22vw;
+    padding:10px 10px;
+    display: block;
+    margin:20px auto ;
+    border-radius: 5px;
+    font-style: italic;
+    color:#7f8fa6;
+    border:none;
+    outline:none;
+    background: #dfe4ea;
+}
+#form_login input[type='text']:focus, #form_login input[type='password']:focus{
+    border:1px solid #f0932b;
+    width:25vw;
+}
+#form_login input[type='checkbox']{
+    width:20px;
+    margin:0px 0px;
+    padding:0px 0px;
+    display: inline-block;
+
+}
+/*#login #btn_login*/
+
+#form_login input[type='submit']:hover{
+    
+    background: #f0932b;
+}
+#form_login a{
+    display: block;
+    font-style: italic;
+    text-decoration: underline;
+    color:#333;
+    font-size: 14px;
+    margin-bottom: 20px;
+} 
+

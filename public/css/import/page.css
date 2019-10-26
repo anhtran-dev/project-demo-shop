@@ -1,0 +1,45 @@
+#main-content-wp.page{
+    background: #d2dae2;
+}
+.page h1.title{
+    width:300px;
+    margin:20px auto;
+    font-family: 'Roboto Condensed';
+    font-size:22px;
+    text-align: center;
+    padding:10px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid red;
+    color:#d35400;
+}
+.page .index{
+    font-size:20px;
+    color:#341f97;
+    padding:10px 0px;
+    font-weight: bold;
+    
+}
+
+.page > h1,.page > h3{
+    font-size: 20px;
+    color:#0652DD;
+    padding:10px 0px;
+    text-transform: uppercase;  
+}
+.page h1{
+    font-size:20px;
+    color:#333;
+    padding:10px 0px;
+    font-weight: 700;
+    
+}
+.page .section-detail p{
+    font-size:16px;
+    color:#576574;
+    padding:15px 0px;
+}
+
+.page strong{
+    font-size:20px;
+}

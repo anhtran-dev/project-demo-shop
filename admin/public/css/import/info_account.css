@@ -1,0 +1,53 @@
+
+h3#account:after{
+    position: absolute;
+    content: '\f007';
+    font-family: 'FontAwesome';
+    top: 13px;
+    right: 10px;
+    
+    font-size: 18px;
+    /*color:#333;*/
+    padding-left:10px;
+}
+.info-account-page #detail-page .section-detail{margin-left:30px;}
+.info-account-page #detail-page .section-detail label{ display: block; padding-bottom: 10px; font-family: 'Roboto Medium'; font-weight: normal;color:#74b9ff;}
+.info-account-page #detail-page .section-detail input[type="text"], .info-account-page #detail-page .section-detail input[type="tel"], .info-account-page #detail-page .section-detail input[type="email"]{
+    display: block;
+    padding: 5px 10px;
+    border: none;
+    width: 35%;
+    margin-bottom: 15px;
+    /*font-weight: bold;*/
+    font-size: 16px;
+    color:#57606f;
+    font-style: italic;
+}
+.info-account-page #detail-page .section-detail textarea{
+    display: block;
+    padding: 5px 10px;
+    border: none;
+    width: 50%;
+    height: 150px;
+    margin-bottom: 25px;
+    color:#57606f;
+    font-style: italic;
+    font-size: 18px;
+}
+/*.info-account-page #detail-page .section-detail select{
+    display: block;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 25px;
+}
+.info-account-page #detail-page .section-detail button{
+    display: block;
+    border: none;
+    outline: none;
+    background: #4fa327;
+    color: #fff;
+    padding: 8px 20px;
+    margin-bottom: 50px;
+}*/
+.info-account-page #detail-page .section-detail button:hover{ background: #3a7d19;}
+#username{ cursor: not-allowed; background: #f3f3f3;}
